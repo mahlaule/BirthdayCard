@@ -19,6 +19,8 @@ export default function App() {
       </View>
 <View style={styles.footer}>
   <Text style ={styles.boldText}>enjoy the rest of the day</Text>
+  <Text style={styles.footer}>May your entire life be as colorful as the card</Text>
+  <Text style={styles.footer}>I hope this is the begining of your greatest </Text>
 </View>
 
 
@@ -44,20 +46,21 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'gray',
+    backgroundColor: '#0000CD',
     alignItems: 'center',
     justifyContent: 'center',
-    width: "65%",
+    width: "45%",
     height: "10%",
-    marginLeft: "200px",
+    marginLeft: "300px",
     backgroundColor:'#708090',
     lineHeight:'2em',
     paddingTop:14,
-    borderRadius:'7%'
+    borderRadius:'7%',
+    border:'2px solid gray'
   },
 
   header: {
-    backgroundColor: '#ffa07a',
+    backgroundColor: '#00BFFF',
     padding: 20,
     width: "100%",
     textAlign: "center"
@@ -77,6 +80,15 @@ const styles = StyleSheet.create({
 
     
   },
+  footer:{
+    fontSize:"20px",
+    color:'white',
+    textAlign:'center',
+    fontStyle:'Roman',
+    fontFamily:'Arial, Helvetica, sans-serif',
+    borderStyle:"dashed"
+    
+  }
 
 
 
